@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.indicator {
+    margin-left: 3rem;
+}
+
+@media (min-width: 1024px) {
+    .indicator {
+        margin-left: 10rem;
+    }
+}
